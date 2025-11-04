@@ -1,0 +1,49 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+#btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    padding: 1rem;
+    background-color: black;
+    margin: auto;
+}
+
+#btns button{
+    background-color: brown;
+    height: 2.3rem;
+    width: 10rem;
+    color: antiquewhite;
+    font-size: 2.5rem;
+    font-weight: 900;
+    border-radius: 50px;
+    border: none;
+}
+
+.block{
+    height: 89.5vh;
+    background-color: antiquewhite;
+    width: 100%;
+}
+
+#title{
+    text-align: center;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 800;
+    text-decoration-line: underline; 
+}
+
+#banner{
+    display: block;
+    margin: auto;
+    width: fit-content;
+    height: 30rem;
+}
