@@ -18,6 +18,10 @@ export default function homePage(){
     mainimg.src ="./images/sweety.jpg";
     mainimg.id = 'banner';
     main.append(mainimg);
+
+    home.addEventListener('mouseout', ()=>{
+        home.style.boxShadow = "none";
+    });
 }
 
 homePage();
