@@ -4,8 +4,9 @@
   "description": "",
   "main": "restaurant.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "webpack serve --open",
+  "build": "webpack --mode production"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Meena044/Restaurant-page.git"
