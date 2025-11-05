@@ -1,6 +1,8 @@
+import sweety from '../images/sweety.jpg';
 export let main;
 export default function homePage(){
     const content = document.querySelector('#content');
+
     content.innerHTML = '';
 
     main = document.createElement("div");
@@ -13,7 +15,7 @@ export default function homePage(){
     main.append(title);
 
     const mainimg =  document.createElement('img');
-    mainimg.src ="./images/sweety.jpg";
+    mainimg.src = sweety;
     mainimg.id = 'banner';
     main.append(mainimg);
 
@@ -21,6 +23,7 @@ export default function homePage(){
         home.style.boxShadow = "none";
     });
 }
+
 
 
 

@@ -1,3 +1,9 @@
+import shrimp from '../images/shrimp long.jpeg';
+import tandoori from '../images/tandoori.jpg';
+import tikkaMasala from '../images/tikka masala.jpg';
+import burger from '../images/burgerr.jpg';
+import jello from '../images/cran jello.jpeg';
+
 export function menuPage(){
     const main = document.querySelector('.block');
     main.innerHTML= '';
@@ -21,15 +27,15 @@ export function menuPage(){
         main.append(eachDish);
     }
 
-    menuDetails('./images/shrimp long.jpeg', 'Spicy shrimp','Spicy shrimp is a flavorful and bold dish that combines the sweetness of fresh shrimp with the heat of chili peppers and aromatic spices. Often marinated in a blend of garlic, paprika, cayenne, and citrus juice, the shrimp are quickly seared or grilled to lock in flavor while maintaining their tender, juicy texture.', 'INR 300');
+    menuDetails(shrimp, 'Spicy shrimp','Spicy shrimp is a flavorful and bold dish that combines the sweetness of fresh shrimp with the heat of chili peppers and aromatic spices. Often marinated in a blend of garlic, paprika, cayenne, and citrus juice.', 'INR 300');
 
-    menuDetails('./images/tandoori.jpg', 'Grilled Chicken','this easy cranberry Jell-O salad for Thanksgiving is the most popular dish we had! Cherry-flavored gelatin teams up with jellied cranberry sauce and crushed pineapple for a fruity flavor that cant be beat.', 'INR 260');
+    menuDetails(tandoori, 'Grilled Chicken','this easy cranberry Jell-O salad for Thanksgiving is the most popular dish we had! Cherry-flavored gelatin teams up with jellied cranberry sauce and crushed pineapple for a fruity flavor that cant be beat.', 'INR 260');
 
-    menuDetails('./images/tikka masala.jpg', 'Chicken Tikka Masala','Juicy, marinated tikka pieces grilled on sticks to smoky perfection, then brushed with a rich, creamy masala sauce that blends aromatic spices, garlic, and a hint of charred flavor.', 'INR 180');
+    menuDetails(tikkaMasala, 'Chicken Tikka Masala','Juicy, marinated tikka pieces grilled on sticks to smoky perfection, then brushed with a rich, creamy masala sauce that blends aromatic spices, garlic, and a hint of charred flavor.', 'INR 180');
 
-    menuDetails('./images/burgerr.jpg', 'Tasty beef burger','Juicy grilled beef patty layered with cheese, lettuce, and a special sauce, served in a toasted bun.', 'INR 200');
+    menuDetails(burger, 'Tasty beef burger','Juicy grilled beef patty layered with cheese, lettuce, and a special sauce, served in a toasted bun.', 'INR 200');
 
-    menuDetails('./images/cran jello.jpeg', 'Jell-O','this easy cranberry Jell-O salad for Thanksgiving is the most popular dish we had! Cherry-flavored gelatin teams up with jellied cranberry sauce and crushed pineapple for a fruity flavor that cant be beat.', 'INR 260');
+    menuDetails(jello, 'Jell-O','this easy cranberry Jell-O salad for Thanksgiving is the most popular dish we had! Cherry-flavored gelatin teams up with jellied cranberry sauce and crushed pineapple for a fruity flavor that cant be beat.', 'INR 260');
 
     menu.addEventListener('mouseout', ()=>{
         menu.style.boxShadow = "none";

@@ -1,3 +1,4 @@
+import './page.css'
 import homePage from "./recipes/homePage.js";
 import { menuPage } from "./recipes/menuPage.js";
 import { aboutPage } from "./recipes/aboutPage.js";
