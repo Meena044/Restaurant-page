@@ -1,5 +1,6 @@
 import homePage from "./recipes/homePage.js";
 import { menuPage } from "./recipes/menuPage.js";
+import { aboutPage } from "./recipes/aboutPage.js";
 
 console.log("heyy dude");
 
@@ -20,4 +21,9 @@ home.addEventListener('click', ()=>{
 menu.addEventListener('click', ()=>{
     menu.style.boxShadow = "0 0.6rem 1rem rgba(247, 246, 230, 0.5)";
     menuPage();
+});
+
+about.addEventListener('click', ()=>{
+    about.style.boxShadow = "0 0.6rem 1rem  rgba(247, 246, 230, 0.5)";
+    aboutPage();
 });

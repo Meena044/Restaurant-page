@@ -6,6 +6,16 @@
     font-weight: 400;
     font-style: normal;
 }
+
+body{
+    background-color: rgb(247, 221, 187);
+}
+
+#header{
+    width: 100%;
+    height: fit-content;
+}
+
 #btns{
     display: flex;
     justify-content: center;
@@ -29,7 +39,6 @@
 
 .block{
     height: auto;
-    background-color: antiquewhite;
     width: 100%;
 }
 
@@ -52,14 +61,13 @@
 
 #dish{
     display: flex;
-    width: 170vh;
+    width: 140vh;
     height: 15rem;
     background-color: rgb(228, 143, 33);
-    justify-content: center;
     align-items: center;
     margin: 2rem auto;
     border-radius: 3rem;
-    padding: 2rem;
+    padding: 1.5rem;
     gap: 40px;
 
 }
@@ -68,9 +76,10 @@
     box-sizing: border-box;
     border-radius: 2rem;
     margin: 1rem;
-    width: 40vh;
+    width: 37vh;
     height: 30vh;
     border: 0.5rem solid black;
+    flex:1;
 }
 
 .para{
@@ -81,13 +90,15 @@
 }
 
 #timing{
-    /* background-color: black; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 3rem auto;
     width: 20rem;
+    background-color: rgb(228, 143, 33);
+    border-radius: 3rem;
+    padding: 2rem;
 }
 
 #subtitle{
@@ -98,4 +109,16 @@
 ul li{
     font-size: 2rem;
     list-style-type:square;
+}
+
+#ourStory{
+    display: flex;
+    flex-direction: column;
+    border-radius: 3rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    margin: 0 15rem;
+    background-color: rgb(228, 143, 33);
+    padding: 2rem;
 }

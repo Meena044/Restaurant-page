@@ -1,7 +1,6 @@
 export function menuPage(){
     const main = document.querySelector('.block');
     main.innerHTML= '';
-    content.style.backgroundColor = " rgba(250, 213, 191, 1)";
 
     const heading = document.createElement('h1');
     heading.textContent = 'Menu';
@@ -26,7 +25,9 @@ export function menuPage(){
 
     menuDetails('./images/tandoori.jpg', 'Grilled Chicken','this easy cranberry Jell-O salad for Thanksgiving is the most popular dish we had! Cherry-flavored gelatin teams up with jellied cranberry sauce and crushed pineapple for a fruity flavor that cant be beat.', 'INR 260');
 
-    menuDetails('./images/tandoor.jpg', 'Chicken Tandoori','this easy cranberry Jell-O salad for Thanksgiving is the most popular dish we had! Cherry-flavored gelatin teams up with jellied cranberry sauce and crushed pineapple for a fruity flavor that cant be beat.', 'INR 260');
+    menuDetails('./images/tikka masala.jpg', 'Chicken Tikka Masala','Juicy, marinated tikka pieces grilled on sticks to smoky perfection, then brushed with a rich, creamy masala sauce that blends aromatic spices, garlic, and a hint of charred flavor.', 'INR 180');
+
+    menuDetails('./images/burgerr.jpg', 'Tasty beef burger','Juicy grilled beef patty layered with cheese, lettuce, and a special sauce, served in a toasted bun.', 'INR 200');
 
     menuDetails('./images/cran jello.jpeg', 'Jell-O','this easy cranberry Jell-O salad for Thanksgiving is the most popular dish we had! Cherry-flavored gelatin teams up with jellied cranberry sauce and crushed pineapple for a fruity flavor that cant be beat.', 'INR 260');
 

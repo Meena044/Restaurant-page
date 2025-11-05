@@ -1,9 +1,7 @@
 export let main;
 export default function homePage(){
     const content = document.querySelector('#content');
-
     content.innerHTML = '';
-    content.style.backgroundColor = " rgba(250, 213, 191, 1)";
 
     main = document.createElement("div");
     main.classList.add('block');
@@ -23,8 +21,6 @@ export default function homePage(){
         home.style.boxShadow = "none";
     });
 }
-
-homePage();
 
 
 
