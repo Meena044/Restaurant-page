@@ -51,7 +51,6 @@ body{
     display: block;
     margin: 2rem auto;
     width: 50%;
-    /* min-width: 200px; */
     height: 65vh;
     border: 0.4rem solid black;
     border-radius: 5rem;
@@ -134,7 +133,7 @@ ul li{
         gap: 2vh;
         width: 100%;
         height: auto;
-        /* padding: 1rem; */
+        
     }
 
     #banner{
@@ -143,6 +142,7 @@ ul li{
         width: 50%;
         min-width: 250px;
         height: auto;
+        border-radius: 0rem;
     }
 
     #dish{
