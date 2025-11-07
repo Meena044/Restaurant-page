@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -11,19 +10,16 @@ body{
     background-color: rgb(247, 221, 187);
 }
 
-#header{
-    width: 100%;
-    height: fit-content;
-}
 
 #btns{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2vh;
-    padding: 1rem;
     background-color: black;
-    margin: auto;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
 }
 
 #btns button{
@@ -35,6 +31,7 @@ body{
     font-weight: 900;
     border-radius: 50px;
     border: none;
+    
 }
 
 .block{
@@ -53,7 +50,8 @@ body{
 #banner{
     display: block;
     margin: 2rem auto;
-    width: fit-content;
+    width: 50%;
+    /* min-width: 200px; */
     height: 65vh;
     border: 0.4rem solid black;
     border-radius: 5rem;
@@ -120,8 +118,55 @@ ul li{
     justify-content: center;
     align-items: center;
     font-size: 2.2rem;
-    margin: 2rem 15rem 0;
+    width: 55vw;
+    margin: 2rem auto;
     background-color: rgb(228, 143, 33);
     padding: 2rem;
     box-shadow: 0.5rem 1rem 1rem rgb(49, 1, 1);
+}
+
+@media (max-width:600px){
+    #btns{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2vh;
+        width: 100%;
+        height: auto;
+        /* padding: 1rem; */
+    }
+
+    #banner{
+        display: block;
+        margin: 2rem auto;
+        width: 50%;
+        min-width: 250px;
+        height: auto;
+    }
+
+    #dish{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        height: auto;
+        align-items: center;
+        margin: 2rem auto;
+        border-radius: 3rem;
+        padding: 1.5rem;
+        gap: 40px;
+    }
+    #timing{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem auto;
+        width: 70%;
+        border-radius: 3rem;
+        padding: 2rem;
+    }
+    #ourStory{
+        width: 70%;
+    }
 }
